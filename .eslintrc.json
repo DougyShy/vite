@@ -23,5 +23,8 @@
     {
       "files": ["*.js", "*.jsx"]
     }
-  ]
+  ],
+  "rules": {
+    "react/no-did-mount-set-state": ["error"]
+  }
 }
