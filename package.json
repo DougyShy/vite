@@ -14,6 +14,7 @@
   "dependencies": {
     "mongodb": "^6.12.0",
     "mongoose": "^8.9.4",
+    "node": "^22.13.0",
     "prettier": "^3.4.2",
     "react": "^18.2.0",
     "serve": "^14.2.4"
@@ -31,5 +32,8 @@
       "npx prettier --write",
       "npx eslint --fix"
     ]
+  },
+  "engines": {
+    "node": "^23.6.0"
   }
 }
